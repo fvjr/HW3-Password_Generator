@@ -47,17 +47,7 @@ console.log(yourPass);
 
   return yourPass;
 }
-//---------------------------------Starter code^
 
-//for loop for password length
-// for (var i = 0; i < passwordText.length; i++) {
-//   prompt(document.querySelector(passwordTest[i]));
-// }
-
-
-//Character choice arrays -----------
-
-//End characters for Password Generations//
 //password prompts for Password Generations//
 function askUser() {
   var passwordLengthChoice = parseInt(prompt("How many characters would you like your password to be? Enter a number between 8 and 128"));
