@@ -21,9 +21,10 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+//forms password depending on prompt selection
 function generatePassword() {
   var resObject = askUser()
-  console.log(resObject);
+  // console.log(resObject);
   if (resObject.passwordLowercaseChoice) {
     totalArray = totalArray.concat(passwordCharacteristics.charactersLowerCase)
   }
@@ -67,6 +68,7 @@ function askUser() {
     return;
   }
 
+  //sets which prompts were selected or not selected
   var returnObjects = {
     passwordLengthChoice,
     passwordLowercaseChoice,
